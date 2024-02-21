@@ -8,7 +8,7 @@ Scenario Outline: next page arrow navigation
   When user clicks the next page arrow
   Then user is navigated to page <next_page_number>
 
-Scenarios: 
+Examples: 
   | page_number | next_page_number |
   | 1 | 2 |
   | 2 | 3 |
@@ -21,7 +21,7 @@ Scenario Outline: previous page arrow navigation
   When user clicks the next page arrow
   Then user is navigated to page <previous_page_number>
 
-Scenarios:
+Examples:
   | page_number | previous_page_number |
   | 6 | 5 |
   | 5 | 4 |

@@ -1,2 +1,1 @@
 # respol-sklep-gherkin
- 

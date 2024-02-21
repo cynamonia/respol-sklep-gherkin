@@ -7,7 +7,7 @@ Scenario Outline: navigation
   When user clicks <category_name> on main menu
   Then user is navigated to <category_page> page
 
-Scenarios: 
+Examples: 
     | category_name | category_page |
     | Resopal Unity | Resopal Unity |
     | Antybakteryjne Deski do krojenia | Antybakteryjne Deski do krojenia |
